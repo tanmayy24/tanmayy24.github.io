@@ -23,7 +23,7 @@ var theImages = new Array()
 var theCredits = new Array()
 
 theImages[0] = 'assets/img/abobu1.jpg'
-theImages[1] = 'assets/img/abobu2.jpg'
+theImages[1] = 'assets/img/dp.jpg'
 
 theCredits[0] = 'Adrian Dalca'
 theCredits[1] = 'Andrea Bajcsy'
