@@ -78,7 +78,7 @@ document.write('<p><font color="gray" size="1">Photo credit: '+theCredits[whichI
             
               <li class="nav-item ">
                   <a class="nav-link" href="/cv/">
-                    curriculum vitae
+                    Curriculum Vitae (CV)
                     
                   </a>
               </li>
@@ -157,7 +157,7 @@ document.write('<p><font color="gray" size="1">Photo credit: '+theCredits[whichI
             abobu [at] berkeley [dot] edu<br />
             <br />
 			
-		  <label class="collapse" for="_cv">Resume</label><input id="_cv" type="checkbox"><div>: <a href="./files/cv.pdf">curriculum vitae</a> | <a href="https://www.linkedin.com/in/andreea-bobu-a2940277">Linkedin</a></div>
+		  <label class="collapse" for="_cv">Resume</label><input id="_cv" type="checkbox"><div>: <a href="./files/cv.pdf">Curriculum Vitae (CV)</a> | <a href="https://www.linkedin.com/in/andreea-bobu-a2940277">Linkedin</a></div>
 			
             </div>
         </div>    	
