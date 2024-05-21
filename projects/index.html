@@ -92,32 +92,29 @@
       <div class="p-3">
         <div class="row">
           <div class="col-sm-10">
-            <h5 class="font-weight-bold">Algorithmic Foundations of Human-Robot Interaction</h5>
+            <h5 class="font-weight-bold">Deep Learning for End-of-Video Frame Segmentation</h5>
           </div>
           <div class="col-sm-2 text-left text-sm-right">
             <a class="badge font-weight-bold light-blue darken-1 text-uppercase align-middle"
-              href="https://people.eecs.berkeley.edu/~anca/AHRI.html" target="_blank">
+              href="https://github.com/tanmayy24/mask_dl_final" target="_blank">
               CODE
             </a>
             <a class="badge font-weight-bold light-blue darken-1 text-uppercase align-middle"
-            href="https://people.eecs.berkeley.edu/~anca/AHRI.html" target="_blank">
-            PDF
-          </a>
+              href="https://drive.google.com/file/d/1UFvJOj-IXCfgOsHur-bh6D0N47W6UpLU/view?usp=drive_link"
+              target="_blank">
+              PDF
+            </a>
           </div>
         </div>
-        <h6 class="font-italic mt-2 mt-sm-0">Advisor: Prof. Yann Le Cunn</h6>
+        <h6 class="font-italic mt-2 mt-sm-0">Advisor: Prof. Yann LeCun</h6>
         <ul class="card-text font-weight-light list-group list-group-flush">
           <p>
-            CS 287H is a graduate-level introduction to algorithmic HRI taught by <a
-              href="https://people.eecs.berkeley.edu/~anca/" target="_blank">Prof. Anca Dragan</a>. The course combines
-            lectures with paper presentations by students, encouraging both fundamental knowledge acquisition as well as
-            open-ended discussions. As the only teaching assistant, I had an opportunity to directly influence the
-            course: I created weekly quizzes, developed homework assignments that allowed students to implement the
-            concepts we discussed as an HRI researcher would, brainstormed and provided feedback on project proposals,
-            graded all materials in the course, and led some of the lectures. I also guest lectured both in 2020 (slides
-            <a href="https://people.eecs.berkeley.edu/~anca/AHRI-S2020/andreea.pdf" target="_blank">here</a>) and 2021.
-            Course materials can be found <a href="https://people.eecs.berkeley.edu/~anca/AHRI.html"
-              target="_blank">here</a>.
+            In this work, we present an approach for performing semantic segmentation on
+            predicted video frames. By training a model with a U-Net architecture and custom IoU-based loss function, we generate masks for unlabeled video frames to significantly expand the size of our training dataset. Finally, we train a SimVP video frame prediction model directly on both the ground-truth and generated masks to
+            forecast the segmentation mask of the 22nd frame in a video sequence, given the
+            first 11. After fine-tuning using IoU, our model achieves an IoU of 0.455 on the
+            validation dataset.
+            target="_blank">here</a>.
           </p>
         </ul>
       </div>
